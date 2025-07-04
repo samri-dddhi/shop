@@ -10,6 +10,7 @@ const CartItem = require('./models/cart-item');
 const Cart = require('./models/cart');
 const Order = require('./models/order');
 const OrderItem = require('./models/order-item');
+require('dotenv').config();
 
 const app = express();
 
